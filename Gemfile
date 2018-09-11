@@ -30,6 +30,8 @@ group :development, :test do
   gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
   gem 'database_cleaner'
   gem 'simplecov'
+  gem 'devise'
+  gem 'factory_bot_rails'
   gem 'pry'
 end
 
